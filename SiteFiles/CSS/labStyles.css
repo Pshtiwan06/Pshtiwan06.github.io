@@ -1,0 +1,19 @@
+body{
+    background-color: #2f3237;
+    color:#c2c9d6;
+}
+main a{
+    color: palevioletred;
+    text-decoration: none;
+}
+main a:hover{
+    font-size: 110%;
+}
+main ul{
+    margin-top: 100px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+main li{
+    margin: 10px;
+}

@@ -1,0 +1,32 @@
+body header div{
+    text-align: center;
+}
+body{
+    background-color: #2f3237;
+    color:#c2c9d6;
+}
+main{
+    display: flex;
+    margin-top: 200px;
+    gap: 250px;
+    justify-content: center;
+}
+main ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+main li{
+    margin:10px 0;
+}
+main a{
+    color: palevioletred;
+    text-decoration: none;
+}
+main a:hover{
+    font-size: 110%;
+}
+main h2{
+    color: #d4af37;
+}
