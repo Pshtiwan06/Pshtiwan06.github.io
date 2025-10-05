@@ -1,0 +1,7 @@
+main blockquote a{
+  text-decoration: none;
+  color: black;
+}
+main blockquote a:hover{
+  font-weight: bold;
+}
