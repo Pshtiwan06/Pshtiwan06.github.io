@@ -23,10 +23,19 @@ main li{
 main a{
     color: palevioletred;
     text-decoration: none;
+    display: inline-block;
+    transition: color 1.25s ease-in, transform .25s ease-in-out;
 }
 main a:hover{
-    font-size: 110%;
+    transform: scale(1.25);
 }
-main h2{
+main h2 {
     color: #d4af37;
+    opacity: 0;  
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }

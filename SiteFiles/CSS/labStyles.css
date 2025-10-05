@@ -1,13 +1,24 @@
 body{
     background-color: #2f3237;
-    color:#c2c9d6;
+}
+body div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+main{
+    margin-top: 80px;
 }
 main a{
     color: palevioletred;
     text-decoration: none;
+    display: inline-block;
+    transition: color 1.25s ease-in, transform .2s ease-in-out;
 }
 main a:hover{
-    font-size: 110%;
+    transform: scale(1.25);
 }
 main ul{
     margin-top: 100px;
