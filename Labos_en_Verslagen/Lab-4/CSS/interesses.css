@@ -2,8 +2,6 @@ header{
     text-align: center;
 }
 main{
-    width: min(900px, 95%);
-    margin-inline: auto;
     text-align: center;
     margin: 0;
 }
@@ -13,24 +11,6 @@ main a{
 }
 main a:hover{
     text-decoration: underline;
-}
-table {
-  border: 1px solid black;
-  border-collapse: collapse;
-  margin: 30px auto;
-  text-align: center;
-}
-th, td {
-  border: 1px solid black;
-  padding: 8px 16px;
-}
-#PI ul, #Hobby ul{
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
 }
 #Interesses ul {
   list-style: none;
@@ -52,7 +32,6 @@ th, td {
     text-align: center;
     gap: 20px;
 }
-
 #Interesses ul ul img {
     max-height: 150px;
     border-radius: 10px;
@@ -62,4 +41,29 @@ th, td {
 }
 #Interesses ul ul img:hover {
     transform: scale(1.05);
+}
+#Paginas a{
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform .2s ease-in-out;
+}
+#Paginas ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+#Paginas{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+#Paginas a:hover{
+    transform: scale(1.25);
+}
+#Paginas h2{
+    text-align: center;
 }
