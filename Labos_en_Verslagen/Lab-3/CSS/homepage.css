@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+main{
+    width: min(900px, 95%);
+    margin-inline: auto;
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    color: black;
+}
+main a:hover{
+    text-decoration: underline;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 30px auto;
+  text-align: center;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px 16px;
+}
+caption {
+  caption-side: top;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#PI ul, #Hobby ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+#Interesses ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#Interesses ul li {
+    margin-bottom: 40px;
+}
+#Interesses ul ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+#Interesses ul ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#Interesses ul ul img {
+    max-height: 150px;
+    border-radius: 10px;
+    margin-top: 8px;
+    display: block;
+    transition: transform .5s;
+}
+#Interesses ul ul img:hover {
+    transform: scale(1.05);
+}
+
+

@@ -1,20 +1,21 @@
-footer div a{
+footer li {
+  list-style: none;
+}
+
+footer div a {
   position: fixed;
   bottom: 0;  
   left: 0;
   width: 100%;
-  text-align: center;;
+  text-align: center;
   padding: 10px;
-}
-
-footer div a{
   color: black;
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
-  transition:transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
 }
 
-li a:hover{
+footer li a:hover {
   transform: scale(1.25);
 }
