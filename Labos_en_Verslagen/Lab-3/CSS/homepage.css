@@ -2,7 +2,7 @@ header{
     text-align: center;
 }
 main{
-    width: min(900px, 95%);
+    align-items: center;
     margin-inline: auto;
     text-align: center;
     margin: 0;
