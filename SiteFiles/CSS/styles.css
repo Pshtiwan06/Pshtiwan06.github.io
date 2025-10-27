@@ -31,8 +31,17 @@ main a:hover{
 }
 main h2 {
     color: #d4af37;
-    opacity: 0;  
+    opacity: 0;
+    text-shadow: 0 0 15px #d4af3744, 0 0 30px #d4af3722;
     animation: fadeIn 1s ease forwards;
+}
+#html{
+    color: #FF6F3C;
+    text-shadow: 0 0 8px #ff6f3c33;
+}
+#css{
+    color: #3C7BFA;
+    text-shadow: 0 0 8px #3c7bfa33;
 }
 
 @keyframes fadeIn {
