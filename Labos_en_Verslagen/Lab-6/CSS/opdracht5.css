@@ -1,0 +1,9 @@
+body h5{
+    font-style:italic;
+    font-size: 12px;
+    margin: 12px;
+}
+img{
+    height: 12px;
+    object-fit: contain;
+}

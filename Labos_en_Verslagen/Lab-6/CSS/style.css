@@ -1,0 +1,7 @@
+.menu li {
+    display: inline-block;
+    width: 150px;
+}
+.menu li > a {
+    color: red;
+}

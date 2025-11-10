@@ -1,0 +1,16 @@
+.checklist{
+    padding: 0;
+    list-style-type: none;
+}
+.checklist li{
+    padding-left: 1.5em;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;
+}
+.checklist li.checked{
+    background-image: url(/Labos_en_Verslagen/Lab-6/Extra/checkbox.png);
+}
+.checklist li:not(.checked){
+    background-image: url(/Labos_en_Verslagen/Lab-6/Extra/unchecked.png);
+}
