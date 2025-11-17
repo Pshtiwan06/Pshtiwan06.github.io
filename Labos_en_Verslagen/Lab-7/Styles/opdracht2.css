@@ -1,0 +1,131 @@
+header {
+    text-align: center;
+}
+body {
+    background-color: #14213D; /* Oxford blue */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    color: #e5e5e5;
+}
+h1, h2, h3 {
+    text-shadow: 0 0 2px #000, 0 0 4px #000;
+}
+h1 {
+    color: #013220;
+}
+h2 {
+    color: #d4af37;
+}
+H3 {
+    color: #560319;
+}
+li {
+    color: gray;
+}
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+main section {
+    background: #182339;
+    border-radius: 10px;
+    padding: 25px 32px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+main section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4DA8FF;
+    text-align: left;
+}
+main a {
+    text-decoration: none;
+    color: #4DA8FF;
+}
+main a:hover {
+    color: #82C8FF;
+    text-shadow: 0 0 6px #82C8FF55;
+    text-decoration: none;
+}
+#PI ul,
+#Hobby ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+#PI img {
+    max-height: 250px;
+}
+#Hobby img {
+    max-height: 20px;
+}
+#Interesses ul {
+    list-style: none;
+    padding: 0;
+}
+#Interesses > ul > li {
+    margin-bottom: 40px;
+}
+#Interesses ul ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+#Interesses ul ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+#Interesses ul ul img {
+    max-height: 100px;
+    border-radius: 10px;
+    margin-top: 8px;
+    display: block;
+    transition: transform .5s;
+}
+#Interesses ul ul img:hover {
+    transform: scale(1.05);
+}
+#Vrienden h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4DA8FF;
+    padding-bottom: 5px;
+    text-align: left;
+}
+.vriendentabel {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #182339;
+    font-size: 14px;
+}
+.vriendentabel th,
+.vriendentabel td {
+    padding: 8px 10px;
+    border: 1px solid #444;
+    text-align: left;
+}
+.vriendentabel thead th {
+    background-color: #1f2a48;
+    color: #ffffff;
+    font-weight: bold;
+}
+.vriendentabel tbody tr.alt td {
+    background-color: #131d33;
+}
+.vriendentabel td.onbekend {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}

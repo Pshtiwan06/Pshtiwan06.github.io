@@ -1,0 +1,38 @@
+body{
+    font-family: verdana;
+    width: 95%;
+    font-size: .8em;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    background-color: #444444;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+nav a{
+    color: lime;
+    font-weight: bold;
+    text-decoration: none;
+}
+body>section>header{
+    height: 150px;
+    background-image: url(/Labos_en_Verslagen/Lab-7/Extra/header.jpg);
+    background-size: cover;
+}
+article{
+    background-color: lightgray;
+    margin: 5px;
+    padding: 5px;
+}
+body section header h1{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 10px;
+}
+article h2{
+    text-decoration: underline;
+    font-size: 20px;
+    color: #686868;
+}
