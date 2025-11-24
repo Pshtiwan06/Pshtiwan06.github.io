@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.kolommen {
+    overflow: hidden;
+}
+
+.kolommen > section {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,101 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+}
+
+h1, h2 {
+    color: #007e7e;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+#elixirs {
+    background-image: url('/Labos_en_Verslagen/Lab-8/Extra/cocktail.gif');
+    background-repeat: repeat-x;
+    border: 2px solid skyblue;
+    float: right;
+    width: 28%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#elixirs h1 {
+    color: black;
+}
+
+#elixirs h2 {
+    color: #8b4513;
+}
+
+#elixirs p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+#elixirs a {
+    text-decoration: none;
+}
+
+#elixirs a:hover {
+    background-color: #8b4513;
+    color: #ffffff;
+}
+
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    padding-left: 60px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 2px dashed white;
+    background-image: url('/Labos_en_Verslagen/Lab-8/Extra/background.gif');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    position: relative;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 0.6em;
+    margin-top: 20px;
+    padding: 10px 0;
+}
