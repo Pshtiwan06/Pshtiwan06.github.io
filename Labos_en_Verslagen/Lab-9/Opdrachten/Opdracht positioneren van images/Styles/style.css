@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article{
+    border: 1px solid black;
+    margin: 10px;
+    overflow: auto;
+}
+article img{
+    width: 150px;
+    margin: 10px;
+}
+article:nth-of-type(1) img, article:nth-of-type(3) img{
+    float: left;
+    margin-right: 15px;
+}
+article:nth-of-type(2) img, article:nth-of-type(4) img{
+    float: right;
+    margin-left: 15px;
+}
+h2{
+    margin: 5px;
+}
