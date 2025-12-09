@@ -1,0 +1,93 @@
+header{
+    text-align: center;
+}
+body{
+    background-color: #14213D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+H1, H2, H3{
+    text-shadow: 0 0 2px #000, 0 0 4px #000;
+}
+H1{
+    color: #013220;
+}
+H2{
+    color: #d4af37;
+}
+H3{
+    color: #560319;
+}
+li{
+    color: gray;
+}
+main section{
+    background: #182339;
+    border-radius: 10px;
+    padding: 25px 32px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+main section H2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4DA8FF;
+    text-align: left;
+}
+main{
+    max-width: 900px;
+    margin: 40px auto;
+    gap: 30px;
+}
+main a{
+    text-decoration: none;
+    color: #4DA8FF;
+}
+main a:hover{
+    color: #82C8FF;
+    text-shadow: 0 0 6px #82C8FF55;
+    text-decoration: none;
+}
+#PI ul, #Hobby ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+#Interesses ul {
+  list-style: none;
+}
+#Interesses ul li {
+    margin-bottom: 40px;
+}
+#Interesses ul ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+#Interesses ul ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+#PI img {
+    max-height: 250px;
+}
+#Hobby img {
+    max-height: 20px;
+}
+#Interesses ul ul img {
+    max-height: 100px;
+    border-radius: 10px;
+    margin-top: 8px;
+    display: block;
+    transition: transform .5s;
+}
+#Interesses ul ul img:hover {
+    transform: scale(1.05);
+}

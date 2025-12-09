@@ -1,0 +1,11 @@
+.dark {
+    background-color: grey;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.light {
+    background-color: lightgray;
+    height: 200px;
+    margin-top: 15px;
+}
