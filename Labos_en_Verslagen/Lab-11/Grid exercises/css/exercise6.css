@@ -1,2 +1,64 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-template-areas:
+    "block2"
+    "block1"
+    "block3"
+    "block4";
+}
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+}
+.block.block1{
+    background-color: mediumvioletred;
+    grid-area: block1;
+}
+.block.block2{
+    background-color: darkslateblue;
+    grid-area: block2;
+}
+.block.block3{
+    background-color: lightsteelblue;
+    grid-area: block3;
+}
+.block.block4{
+    background-color: aquamarine;
+    grid-area: block4;
+}
+
+@media screen and (min-width: 772px){
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(4, auto);
+        grid-template-areas:
+            'block1'
+            'block3'
+            'block2'
+            'block4';
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    main{
+        grid-template-rows: auto auto;
+        grid-template-columns:1fr 2fr;
+        grid-template-areas:
+        'block1 block1'
+        'block2 block2'
+        'block3 block4';
+    }
 
 
+}

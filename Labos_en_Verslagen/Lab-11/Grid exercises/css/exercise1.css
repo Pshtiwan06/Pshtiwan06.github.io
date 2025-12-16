@@ -7,3 +7,7 @@
     padding:50px;
     background-color: white;
 }
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
