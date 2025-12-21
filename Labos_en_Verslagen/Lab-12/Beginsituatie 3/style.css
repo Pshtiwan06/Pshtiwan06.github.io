@@ -15,7 +15,9 @@ body {
   margin: 0;
 
   /* zorg dat section-block in het midden komt */
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -29,6 +31,9 @@ body {
   max-inline-size: 350px;
 
  /* tip: gebruik flex-direction"  */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 
 
 }
@@ -62,7 +67,9 @@ body {
   inline-size: 100%;
   padding: 2em;
 /* zorg dat de statistische gegevens horizontaal komen */
-
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 
 }
 

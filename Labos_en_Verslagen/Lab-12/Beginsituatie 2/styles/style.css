@@ -1,10 +1,74 @@
-html {
+html{
     background-color: #333;
     font-family: helvetica;
+    font-size: 1em;
 }
 
-* {
+*{
     padding: 10px;
+    box-sizing: border-box;
 }
 
+body{
+    margin: 5px;
+}
 
+header,
+footer{
+    background: #ddaa00;
+}
+
+footer a{
+    color: #ddaa00;
+}
+
+h1{
+    margin: 0;
+}
+
+nav{
+    background-color: #ccc;
+    padding: 5px 2px;
+}
+
+nav a{
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+main{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main > div{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main > div a{
+    border: 1px solid #333;
+    display: inline-block;
+}
+
+img{
+    padding: 0;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 701px){
+    main{
+        flex-direction: row;
+    }
+
+    main > div{
+        flex: 1 1 0;
+    }
+}

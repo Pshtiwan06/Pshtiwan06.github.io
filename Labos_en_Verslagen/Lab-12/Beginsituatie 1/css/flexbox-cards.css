@@ -9,7 +9,13 @@ body {
     margin: 0;
     background-color: #b4d455;
 }
+header{
+    background-color: #ddaa00;
 
+}
+footer{
+    background-color: #ddaa00;
+}
 a {
     color: white;
 }
@@ -63,7 +69,9 @@ a {
 }
 
 .container {
-/* flex-eigenschappen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
