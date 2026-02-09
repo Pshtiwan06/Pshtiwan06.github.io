@@ -43,6 +43,14 @@ main h2 {
     color: #3C7BFA;
     text-shadow: 0 0 8px #3c7bfa33;
 }
+#js{
+    color: #3fbfa3;
+    text-shadow: 0 0 8px #3fbfa333;
+}
+
+
+
+
 
 @keyframes fadeIn {
     from { opacity: 0; }
