@@ -1,8 +1,9 @@
-const setup = () =>{
-    let elem = document.getElementsByClassName("");
-    for(i = 0; i < elem.length; i++){
-        elem[i].addEventListener("click", () => {
-            elem[i].classList.toggle("active")
-        })
+const setup = () => {
+    let buttons = document.getElementsByTagName('button')
+    for(let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', () => {
+            buttons[i].classList.toggle('active')
+        });
     }
 }
+window.addEventListener("load", setup);
