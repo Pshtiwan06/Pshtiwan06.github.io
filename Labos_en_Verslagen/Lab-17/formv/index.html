@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/SiteFiles/CSS/terug.css">
+    <link rel="stylesheet" href="style.css">
+    <title>validatie</title>
+</head>
+<body>
+
+<form>
+ <div class="line">
+  <label for="txtVoornaam">Voornaam</label>
+  <input type="text" id="txtVoornaam" />
+  <span class="errorMessage" id="errVoornaam"></span>
+ </div>
+
+ <div class="line">
+  <label for="txtfamillieNaam">famillienaam</label>
+  <input type="text" id="txtfamillieNaam" required/>
+  <span class="errorMessage" id="errfamillieNaam"></span>
+ </div>
+
+ <div class="line">
+  <label for="geboortedatum">Geboortedatum:</label>
+  <input type="date" id="geboortedatum" required />
+  <span class="errorMessage" id="errgeboortedatum"></span>
+ </div>
+
+ <div class="line">
+  <label for="txtEmail">E-mail</label>
+  <input type="email" id="txtEmail" required />
+  <span class="errorMessage" id="errEmail"></span>
+ </div>
+
+ <div class="line">
+  <label for="txtAantalKinderen">Aantal kinderen</label>
+  <input type="number" id="txtAantalKinderen" required />
+  <span class="errorMessage" id="errAantalKinderen"></span>
+ </div>
+ <input type="button" id="btnValideer" value="Valideer" />
+</form>
+<footer>
+        <div>
+            <ul>
+            <li><a href="/SiteFiles/Labs/lab17.html">Terug</a></li>
+            </ul>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

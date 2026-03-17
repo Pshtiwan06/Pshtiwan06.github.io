@@ -1,0 +1,10 @@
+.errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+input.invalid {
+    border: solid 2px red;
+    background-color: #ffcccc;
+}
