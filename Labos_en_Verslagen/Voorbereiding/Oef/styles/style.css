@@ -1,0 +1,12 @@
+#zoek, #go{
+    height: 25px;
+    width:100%;
+}
+#s{opacity: 50%;}
+#zoek{
+    font-weight: bold;
+}
+#go{
+    background-color: green;
+    color: white;
+}
